@@ -1,5 +1,129 @@
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  margin: 0 40px;
+}
+h1 {
+  font-size: 50px;
+}
+h3 {
+  padding-bottom: 5px;
+}
+p {
+  text-align: justify;
+}
+section {
+  padding-top: 30px;
+  height: 500px;
+}
+
+/* nav-section starts here */
+.nav-section {
+  padding: 20px;
+  background-color: blueviolet;
+  height: 80px;
+  border-radius: 5px;
+}
+.nav-section ul {
+}
+.nav-section ul li {
+  list-style-type: none;
+  float: right;
+}
+.nav-section ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 20px;
+  color: white;
+}
+/* nav-section ends here */
+
+/* top-section starts here */
+.top-section {
+}
+.half-width {
+  width: 50%;
+  float: left;
+}
+.half-width img {
+  width: 100%;
+}
+/* top-section ends here */
+
+/* project-section starts here */
+.project-section {
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.project-section h1 {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.card {
+  height: 300px;
+  width: 300px;
+  float: left;
+  background-color: purple;
+  color: white;
+  margin: 40px;
+  border-radius: 10px;
+}
+.head {
+  text-align: center;
+  padding: 15px 0;
+}
+.head img {
+  width: 200px;
+}
+.desc {
+  padding: 0 20px;
+}
+.desc h3 {
+  padding-bottom: 10px;
+}
+/* project-section ends here */
+
+/* inquery-section starts here */
+.inquiry-section {
+  background-image: url(images/Ground.png);
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.inquery-h1 {
+  text-align: left;
+  margin: 50px;
+  float: left;
+  font-size: 70px;
+}
+.inquery-button button {
+  float: right;
+  background-image: linear-gradient(lightsalmon, tomato);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+/* inquery-section ends here */
+
+/* connected-section starts here */
+.connected-section {
+  text-align: center;
+}
+.connected-section h2 {
+  padding-bottom: 20px;
+}
+.icon img {
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+}
+/* connected-section ends here */
