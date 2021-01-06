@@ -98,6 +98,10 @@ section {
   color: white;
   margin: 0 60px;
   border-radius: 10px;
+  box-shadow: 2px 2px 20px blue;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px blue;
 }
 .head {
   text-align: center;
@@ -194,6 +198,7 @@ textarea {
   color: orangered;
   box-shadow: 5px 10px 20px greenyellow;
   cursor: pointer;
+  border: none;
 }
 /* form section ends here */
 
@@ -208,4 +213,5 @@ footer {
 footer p {
   text-align: center;
 }
+
 /* footer ends here */
