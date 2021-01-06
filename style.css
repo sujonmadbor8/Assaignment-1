@@ -12,8 +12,17 @@ h1 {
 h3 {
   padding-bottom: 5px;
 }
+h1,
+h2,
+h3,
+button,
+input {
+  font-family: "Yeseva One", cursive;
+}
 p {
   text-align: justify;
+  font-family: "Redressed", cursive;
+  font-size: 25px;
 }
 section {
   padding-top: 30px;
@@ -28,11 +37,17 @@ section {
   text-transform: uppercase;
   font-weight: bold;
 }
+.btn:hover {
+  box-shadow: 5px 10px 20px black;
+  text-decoration: underline;
+  cursor: pointer;
+}
 /* nav-section starts here */
 .nav-section {
   padding: 20px;
   background-color: blueviolet;
   height: 80px;
+  margin: 0 -40px;
 }
 .nav-section ul {
 }
@@ -122,6 +137,11 @@ button {
   margin-top: 50px;
   cursor: pointer;
 }
+button:hover {
+  box-shadow: 5px 10px 20px black;
+  text-decoration: underline;
+  cursor: pointer;
+}
 /* inquery-section ends here */
 
 /* connected-section starts here */
@@ -136,6 +156,9 @@ button {
   width: 70px;
   height: 70px;
   margin: 0 10px;
+}
+.icon img:hover {
+  cursor: pointer;
 }
 /* connected-section ends here */
 
@@ -161,6 +184,11 @@ textarea {
 textarea {
   resize: none;
 }
+.submit-btn:hover {
+  text-decoration: underline;
+  color: orangered;
+  box-shadow: 5px 10px 20px greenyellow;
+}
 /* form section ends here */
 
 /* footer starts here */
@@ -169,6 +197,7 @@ footer {
   color: white;
   padding: 20px;
   font-size: 20px;
+  margin: 0 -40px;
 }
 footer p {
   text-align: center;
