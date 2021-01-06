@@ -54,12 +54,17 @@ section {
 .nav-section ul li {
   list-style-type: none;
   float: right;
+  padding: 0 10px;
 }
 .nav-section ul li a {
   text-decoration: none;
   font-size: 30px;
   padding: 0 20px;
   color: white;
+}
+.nav-section ul li a:hover {
+  text-decoration: underline;
+  color: tomato;
 }
 /* nav-section ends here */
 
@@ -96,10 +101,10 @@ section {
 }
 .head {
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .head img {
-  width: 200px;
+  width: 250px;
 }
 .desc {
   padding: 0 20px;
@@ -188,6 +193,7 @@ textarea {
   text-decoration: underline;
   color: orangered;
   box-shadow: 5px 10px 20px greenyellow;
+  cursor: pointer;
 }
 /* form section ends here */
 
